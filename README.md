@@ -209,3 +209,13 @@ This project is for educational and development purposes.
 **Author**: Flask Inventory System  
 **Version**: 1.0.0  
 **Date**: October 3, 2025
+## Screenshots
+
+### Inventory Report
+![A screenshot of the main inventory report page.](screenshots/inventory_report.png)
+
+### Products Page
+![A screenshot of the products management page.](screenshots/products_page.png)
+
+### Movements Page
+![A screenshot of the page for recording new stock movements.](screenshots/movements_page.png)
