@@ -114,57 +114,6 @@ FLASK_PORT=5000           # Port number
 SECRET_KEY=your_secret    # Flask secret key
 ```
 
-## 🏗️ Architecture
-
-### Application Structure
-- **Factory Pattern**: Clean application initialization
-- **Separation of Concerns**: Routes, database operations, and utilities are separated
-- **Type Safety**: Full type hints for better code quality
-- **Error Handling**: Comprehensive error handling with logging
-
-### Database Schema
-- **Products**: ID (UUID), Name (Unique)
-- **Locations**: ID (UUID), Name (Unique)  
-- **ProductMovements**: Timestamp, From/To Locations, Product, Quantity
-- **Foreign Keys**: Proper referential integrity
-
-### Frontend Architecture
-- **Responsive Design**: Mobile-first approach with Tailwind CSS
-- **Progressive Enhancement**: Works without JavaScript, enhanced with JS
-- **Modular CSS**: Organized styles with clear sections
-- **Accessible**: Proper ARIA labels and semantic HTML
-
-## 🔒 Data Integrity
-
-- **Foreign Key Constraints**: Prevents orphaned records
-- **Business Rules**: Enforces logical movement requirements
-- **Validation**: Client and server-side validation
-- **Confirmation Dialogs**: Prevents accidental deletions
-- **History Protection**: Cannot delete items with movement history
-
-## 🚨 Error Handling
-
-- **Database Errors**: Graceful handling with user-friendly messages
-- **Validation Errors**: Clear feedback for invalid inputs
-- **404/500 Errors**: Professional error pages with redirects
-- **Logging**: Comprehensive logging for debugging
-
-## 🎨 UI/UX Features
-
-- **Professional Design**: Clean, modern interface
-- **Smooth Animations**: Hover effects and transitions
-- **Color-Coded Actions**: Intuitive button colors (blue=primary, yellow=edit, red=delete)
-- **Modal Dialogs**: Non-intrusive editing experience
-- **Flash Messages**: Clear success/error notifications
-- **Responsive Tables**: Mobile-friendly data display
-
-## 🔄 Development
-
-### Code Quality
-- **PEP 8 Compliant**: Follows Python style guidelines
-- **Type Hints**: Full type annotation
-- **Docstrings**: Comprehensive documentation
-- **Modular Design**: Easy to extend and maintain
 
 ### Adding Features
 1. **New Routes**: Add to appropriate section in `app.py`
@@ -172,37 +121,9 @@ SECRET_KEY=your_secret    # Flask secret key
 3. **UI Updates**: Update `templates/index.html`
 4. **Styling**: Use existing Tailwind classes for consistency
 
-## 📈 Performance
-
-- **Optimized Queries**: Efficient database operations
-- **Minimal JavaScript**: Lightweight client-side code
-- **CDN Resources**: Fast loading of external assets
-- **Proper Indexing**: Database indexes for performance
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Import Errors**: Ensure Flask and ReportLab are installed
-2. **Database Locked**: Close any existing database connections
-3. **Permission Errors**: Check file permissions in project directory
-4. **Port In Use**: Change port in configuration or kill existing process
-
-### Debug Mode
-- Set `FLASK_DEBUG=True` for detailed error messages
-- Check browser console for JavaScript errors
-- Review server logs in terminal
-
 ## 📝 License
 
 This project is for educational and development purposes.
-
-## 🤝 Contributing
-
-1. Follow the existing code style and architecture
-2. Add appropriate type hints and docstrings
-3. Test all functionality before submitting
-4. Update documentation for new features
 
 ---
 
