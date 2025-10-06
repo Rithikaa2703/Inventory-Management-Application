@@ -219,3 +219,9 @@ This project is for educational and development purposes.
 
 ### Movements Page
 ![A screenshot of the page for recording new stock movements.](screenshots/movements_page.png)
+
+### Location Report
+![A screenshot of the location page.](screenshots/locations_page.png)
+
+### Balance  Report
+![A screenshot of the Balance report page.](screenshots/product_balance.png)
